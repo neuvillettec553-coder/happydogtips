@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://happydogtips-db350.web.app/sitemap.xml
