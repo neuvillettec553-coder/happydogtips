@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "public",
+    "cleanUrls": false,
+    "ignore": ["firebase.json", "**/.*"],
+    "headers": [
+      { "source": "**/*.@(jpg|jpeg|png|css)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] }
+    ]
+  }
+}
