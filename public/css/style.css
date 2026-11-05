@@ -134,7 +134,7 @@ a{color:var(--forest);text-underline-offset:3px}
 
 /* ---------- Guide cards (home + related) ---------- */
 .cards{display:grid;gap:16px}
-@media (min-width:760px){.cards{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:760px){.cards{grid-template-columns:repeat(2,1fr)}}
 .card{display:block;text-decoration:none;color:var(--ink);background:var(--paper);border-radius:16px;overflow:hidden;border:1px solid var(--line)}
 .card .photo{aspect-ratio:16/9}
 @media (min-width:760px){.card .photo{aspect-ratio:3/2}}
